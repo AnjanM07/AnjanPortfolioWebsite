@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content = "width=device-width, initial-scale=1.0">
+        <title>Anjan Portfolio Website</title>
+        <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+        inegrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+
+
+</head>
+<body>
+<header>
+    <div class="logo">
+        <img src="A logo.001.png" alt="">
+    </div>
+    <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+    </button>
+
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+            <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+            <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+            <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">Contact</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">Resume</a></li>
+
+        </ul>
+    </nav>
+
+</header>
+
+<section class="intro" id="home"> 
+    <h1 class="section__title section__title--intro">
+        Hi, I am <strong>Anjan Melkote</strong>
+    </h1>
+
+    <p class="section__subtitle section__subtitle--intro">Engineering Student</p>
+    <img src="10821856-AAB5-43C8-9F0C-8C5A388E4F72.jpg" alt="a picture of anjan smiling">
+    </section>
+
+    <section class="About" id="about">
+<h2 class="section__title section__title--services">
+    About
+</h2>
+<div class="about">
+    <p>
+        type a paragraph here
+    </p>
+</div>
+
+    </section>
+<section class="projects" id="projects">
+    <h2 class="section__title section__title--projects">Projects</h2>
+
+        <h3 class="section__subtitle section__subtitle--projects">Flatpack furniture </h3>
+            <p>Researched, planned and designed an ergonomic multipurpose foldable flatpack desk. Then laser printed and assembled all parts to create a  3D model. Through this process, I gained skills in Adobe illustrator and Photoshop, technical skills such as woodworking, assembly, using different joints and operating a laser cutter as well as the ability to create diagrams and sketches. An in depth report of research, thought-process, consumer and ethical considerations as well as a visual depiction of each step of the process was also written and can be accessed here.
+                <a href="https://docs.google.com/document/d/149ityCCFrDv7KWJqG-eY0Y5Xo1mFCFxGzUbhMgy5y0I/edit">Anjan - Flatpack furniture report</a>   
+            </p>
+            <img src="flatpack.png" alt="">
+
+        <h3 class="section__subtitle section__subtitle--projects">ReadyMed </h3>
+            <p>A multi-page interactive iOS application providing various effective home remedies for different medical conditions. It was created from scratch using <mark>React.js</mark> and <mark>Swift</mark> on Xcode.
+            </p>
+            <img src="app.png" alt="">
+        
+        <h3 class="section__subtitle section__subtitle--projects">PROJECT NAME </h3>
+            <p> type smth here
+            </p>
+            <img src="" alt="">
+        
+         <h3 class="section__subtitle section__subtitle--projects">PROJECT NAME </h3>
+            <p> type smth here
+            </p>
+            <img src="" alt="">
+
+<section class="skills" id="skills">
+    <h2 class="section__title section__title--projects">Skills</h2>
+    <ul>
+        <li>Programming Languages - HTML, LaTeX </li>
+        <li>3D CAD - Fusion360, another software</li>
+        <li>Adobe Photoshop, Illustrator </li>
+      </ul>
+</section>
+</body>
+</html>
